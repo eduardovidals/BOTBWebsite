@@ -1,0 +1,98 @@
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li {
+    color: black;
+    font-family: 'Lato', sans-serif;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+    margin: 0 2.5vw;
+}
+
+.nav ul li a:last-child{
+    margin-right: 0;
+}
+
+.nav ul li a:hover {
+    color: #98d6e8;
+}
+
+#annual-plan {
+    border: 1px #0f9119 solid;
+    padding: 1vh;
+    border-radius: 0.5vw;
+}
+
+#annual-plan:hover {
+    background-color: #0f9119;
+    color: white;
+    transition: all 200ms ease-in;
+    cursor: pointer;
+}
+
+#nav-contact {
+    display: none;
+}
+
+#nav-container {
+    display: flex;
+    margin-right: 15px;
+}
+
+#nav-bars {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    #nav-bars {
+        display: initial;
+    }
+
+    .nav {
+        position: fixed;
+        left: 100%;
+        background-color: rgba(51, 67, 93, 90%);
+        width: 100%;
+        top: 75px;
+        height: calc(100vh - 75px);
+        z-index: 1;
+        transition: all 700ms;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #nav-contact {
+        margin-top: 40px;
+        display: initial;
+    }
+
+    .nav-contact-active {
+        display: initial;
+    }
+
+    .nav > ul > li {
+        margin-top: 40px;
+    }
+
+    .nav-active {
+        left: 0;
+        flex-direction: column;
+    }
+
+    #nav-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+}

@@ -1,0 +1,84 @@
+#flight-emissions {
+    padding-top: 75px;
+    width: 100%;
+    margin-top: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+#contribute {
+    margin-top: 2vh;
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+#postal-code-header {
+    font-weight: bold;
+    font-size: 5vw;
+}
+
+#from-to {
+    display: flex;
+    padding: 4vh 0;
+}
+
+#from-to-submit {
+    background-color: black;
+    color: white;
+    border-radius: 1vw;
+    padding: 1.3vh 2vw;
+    font-size: 2.5vw;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+#solutions-now {
+    margin-top: 2vh;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    justify-content: center;
+    row-gap: 3%;
+    column-gap: 3%;
+    overflow: hidden;
+}
+
+#solutions-now a {
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+    border-radius: 2vw;
+    padding: 2vw;
+    display: flex;
+    width: 20vw;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+#solutions-now a:hover {
+    background-color: #b2d289;
+}
+
+.solution-title {
+    font-size: 2vw;
+    text-align: center;
+    font-weight: bold;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.solution-image {
+    width: 8vw;
+    padding: 3vh;
+}
+
+.solution-subtitle {
+    text-align: center;
+    font-weight: bold;
+}

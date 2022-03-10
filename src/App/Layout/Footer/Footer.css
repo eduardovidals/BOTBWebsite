@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+#footer {
+    display: flex;
+    background-color: #fff;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    min-height: 75px;
+    overflow-x: hidden;
+}
+
+#connect-with-me {
+    font-size: 20px;
+    margin: 5px 0;
+    font-family: 'Lato', sans-serif;
+}
+
+@media (max-width: 550px) {
+    #connect-with-me {
+        display: none;
+    }
+}

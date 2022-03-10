@@ -1,0 +1,20 @@
+.input-container {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-text {
+    margin: 0 1vw 0 0;
+    font-size: 2.5vw;
+}
+
+.title-input {
+    all: unset;
+    padding: 1vh;
+    background-color: rgba(210, 208, 208, 0.5);
+    border-radius: 5px;
+    margin: 0 1vw 0 0;
+    font-size: 2vw;
+}

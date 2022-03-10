@@ -1,0 +1,32 @@
+#contact-container ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-container ul li {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 15px;
+    padding: 0 15px 0 3px;
+}
+
+#contact-container ul li a {
+    margin: 0;
+}
+
+.social-link {
+    text-decoration: none;
+    color: white;
+}
+
+.social-link:hover {
+    color: #98d6e8;
+    transition: all 150ms linear;
+    cursor: pointer;
+}
+
+.social-text {
+    font-family: 'Lato', sans-serif;
+}

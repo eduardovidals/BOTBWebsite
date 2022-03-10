@@ -1,0 +1,48 @@
+#header {
+    display: flex;
+    min-height: 75px;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+#header-name {
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    margin-left: 15px;
+}
+
+#header-name a {
+    text-decoration: none;
+    color: black;
+}
+
+#header-name a:hover {
+    color: #98d6e8;
+}
+
+.bar {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 400ms;
+}
+
+#bar1-active {
+    -webkit-transform: rotate(-45deg) translate(-8px, 8px);
+    transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+#bar2-active {
+    opacity: 0;
+}
+
+#bar3-active {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
