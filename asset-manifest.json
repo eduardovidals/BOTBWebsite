@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/KPMG/static/css/main.445e23d3.css",
-    "main.js": "/KPMG/static/js/main.b70347f0.js",
-    "static/js/522.b8bb87e6.chunk.js": "/KPMG/static/js/522.b8bb87e6.chunk.js",
-    "static/media/windmill.png": "/KPMG/static/media/windmill.cb0eaf2aa67decb848fe.png",
-    "static/media/earth.png": "/KPMG/static/media/earth.d240c1c13e3ff309bb00.png",
-    "static/media/tree.png": "/KPMG/static/media/tree.f37195d87999ac1b3f90.png",
-    "static/media/water.png": "/KPMG/static/media/water.bae7985ed56a13e3734f.png",
-    "static/media/solar-panel.png": "/KPMG/static/media/solar-panel.1978514eb2116ec9956a.png",
-    "static/media/decarbonization.png": "/KPMG/static/media/decarbonization.afe09c7a727bee9a6ccf.png",
-    "static/media/plane.png": "/KPMG/static/media/plane.f533f74d6711e4bda139.png",
-    "static/media/climate-risk.png": "/KPMG/static/media/climate-risk.34b6686a16c32cc57b5a.png",
-    "index.html": "/KPMG/index.html",
-    "main.445e23d3.css.map": "/KPMG/static/css/main.445e23d3.css.map",
-    "main.b70347f0.js.map": "/KPMG/static/js/main.b70347f0.js.map",
-    "522.b8bb87e6.chunk.js.map": "/KPMG/static/js/522.b8bb87e6.chunk.js.map"
+    "main.css": "/BOTBWebsite/static/css/main.445e23d3.css",
+    "main.js": "/BOTBWebsite/static/js/main.533b8cce.js",
+    "static/js/522.b8bb87e6.chunk.js": "/BOTBWebsite/static/js/522.b8bb87e6.chunk.js",
+    "static/media/windmill.png": "/BOTBWebsite/static/media/windmill.cb0eaf2aa67decb848fe.png",
+    "static/media/earth.png": "/BOTBWebsite/static/media/earth.d240c1c13e3ff309bb00.png",
+    "static/media/tree.png": "/BOTBWebsite/static/media/tree.f37195d87999ac1b3f90.png",
+    "static/media/water.png": "/BOTBWebsite/static/media/water.bae7985ed56a13e3734f.png",
+    "static/media/solar-panel.png": "/BOTBWebsite/static/media/solar-panel.1978514eb2116ec9956a.png",
+    "static/media/decarbonization.png": "/BOTBWebsite/static/media/decarbonization.afe09c7a727bee9a6ccf.png",
+    "static/media/plane.png": "/BOTBWebsite/static/media/plane.f533f74d6711e4bda139.png",
+    "static/media/climate-risk.png": "/BOTBWebsite/static/media/climate-risk.34b6686a16c32cc57b5a.png",
+    "index.html": "/BOTBWebsite/index.html",
+    "main.445e23d3.css.map": "/BOTBWebsite/static/css/main.445e23d3.css.map",
+    "main.533b8cce.js.map": "/BOTBWebsite/static/js/main.533b8cce.js.map",
+    "522.b8bb87e6.chunk.js.map": "/BOTBWebsite/static/js/522.b8bb87e6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.445e23d3.css",
-    "static/js/main.b70347f0.js"
+    "static/js/main.533b8cce.js"
   ]
 }
